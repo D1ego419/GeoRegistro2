@@ -1,0 +1,12 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Registrar incidencia" android:textSize="26sp" android:textStyle="bold"/>
+<EditText android:id="@+id/etTitulo" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Título"/>
+<EditText android:id="@+id/etDescripcion" android:layout_width="match_parent" android:layout_height="100dp" android:gravity="top" android:hint="Descripción"/>
+<Spinner android:id="@+id/spCategoria" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnFecha" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Seleccionar fecha y hora"/>
+<TextView android:id="@+id/tvFecha" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Fecha y hora: no seleccionada"/>
+<Button android:id="@+id/btnUbicacion" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Obtener ubicación GPS"/>
+<TextView android:id="@+id/tvLatitud" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Latitud: no obtenida"/>
+<TextView android:id="@+id/tvLongitud" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Longitud: no obtenida"/>
+<Button android:id="@+id/btnGuardar" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GUARDAR INCIDENCIA"/>
+</LinearLayout></ScrollView>
