@@ -1,0 +1,6 @@
+package cl.ipvg.georegistro;
+import java.util.Date;
+public class Incidencia { private String titulo,descripcion,categoria,fechaHora; private double latitud,longitud; private Date fechaCreacion;
+public Incidencia(){} public Incidencia(String t,String d,String c,String f,double la,double lo,Date fc){titulo=t;descripcion=d;categoria=c;fechaHora=f;latitud=la;longitud=lo;fechaCreacion=fc;}
+public String getTitulo(){return titulo;} public String getDescripcion(){return descripcion;} public String getCategoria(){return categoria;} public String getFechaHora(){return fechaHora;} public double getLatitud(){return latitud;} public double getLongitud(){return longitud;} public Date getFechaCreacion(){return fechaCreacion;}
+public void setTitulo(String v){titulo=v;} public void setDescripcion(String v){descripcion=v;} public void setCategoria(String v){categoria=v;} public void setFechaHora(String v){fechaHora=v;} public void setLatitud(double v){latitud=v;} public void setLongitud(double v){longitud=v;} public void setFechaCreacion(Date v){fechaCreacion=v;}}
