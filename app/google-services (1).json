@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "507896681088",
+    "project_id": "georegistro-19389",
+    "storage_bucket": "georegistro-19389.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507896681088:android:5ea38b2d37b00ed27d8c65",
+        "android_client_info": {
+          "package_name": "cl.ipvg.georegistro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXh0iVBFl9RK1ZrtwsEV_OJjJ6HD6pM3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507896681088:android:9a3cf40fd156156c7d8c65",
+        "android_client_info": {
+          "package_name": "cl.ipvg.gepregistro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXh0iVBFl9RK1ZrtwsEV_OJjJ6HD6pM3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
